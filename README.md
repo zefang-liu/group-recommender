@@ -5,6 +5,8 @@ DRGR: Deep Reinforcement learning based Group Recommender system.
 A course project for Georgia
 Tech [CSE 6240 Web Search and Text Mining](https://www.cc.gatech.edu/~srijan/teaching/cse6240/spring2021/) Spring 2021.
 
+The [project report](https://arxiv.org/abs/2106.06900) is available on arXiv.
+
 ## Environment Settings
 
 - python version: '3.7.10'
@@ -14,7 +16,7 @@ Tech [CSE 6240 Web Search and Text Mining](https://www.cc.gatech.edu/~srijan/tea
 
 The original MovieLens dataset can be downloaded from [MovieLens](https://grouplens.org/datasets/movielens/), and the
 one we use is [MovieLens 1M Dataset](https://files.grouplens.org/datasets/movielens/ml-1m.zip). You can generate the
-group data `MovieLens-Rand` by using `data/MovieLens-1M.zip` and `drgr/generator.py`.
+group data `MovieLens-Rand` by using `data/MovieLens-1M.zip` and `drgr/generator.py`. (See "Run the DRGR".)
 
 The `data/MovieLens-Rand` directory should include the following files:
 
@@ -55,7 +57,7 @@ Change to the code directory (if not in):
 cd drgr
 ```
 
-Generate the group data from the MovieLens-1M dataset (optional, if choose to generate group data yourself):
+Generate the group data from the MovieLens-1M dataset (`data/MovieLens-1M.zip`):
 
 ```
 python generator.py
